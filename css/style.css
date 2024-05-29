@@ -112,8 +112,9 @@ nav{
 
 /* CHANGE NAVBAR */
 .window-scroll{
-  background: var(--color-primary);
+  /* background: var(--color-primary); */
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .nav__container{
