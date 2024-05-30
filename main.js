@@ -9,5 +9,13 @@ const faqs = document.querySelectorAll('.faq');
 faqs.forEach(faq =>{
   faq.addEventListener('click', ()=>{
     faq.classList.toggle('open');
+
+    // Change icon
+    const icon = faq.querySelector('.faq__icon svg');
+    if(icon.className === 'plus'){
+      icon.className = 'minus';
+    }
   });
+
+
   });

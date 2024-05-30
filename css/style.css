@@ -95,7 +95,12 @@ img{
   border-color: var(--color-white);
 }
 
+.btn{
+  border-radius: 10px;
+}
+
 .btn-primary {
+  border-radius: 10px;
   background: var(--color-danger);
   color: var(--color-white);
 }
@@ -297,7 +302,10 @@ header{
   align-items: center;
   gap: 1.4rem;
   height: fit-content;
+  border-radius: 10px;
   background: var(--color-primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  /* backdrop-filter: blur(10px); */
   cursor: pointer;
 }
 
